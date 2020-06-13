@@ -14,6 +14,10 @@
 
 - `CTRL + MOD + DEL` executes i3lock-fancy script.
 
+- `CTRL + MOD + <` move workspace to left monitor
+
+- `CTRL + MOD + >` move workspace to right monitor
+
 ## Dependencies
 
 `picom` - picom is a compositor used for transparent windows.
