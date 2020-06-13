@@ -18,6 +18,8 @@
 
 - `CTRL + MOD + >` move workspace to right monitor
 
+- configure i3-gaps
+
 ## Dependencies
 
 `picom` - picom is a compositor used for transparent windows.
@@ -29,3 +31,7 @@
 `i3lock-fancy` - i3lock-fancy is a script that takes a screenshot of your current screen, blurs it and sets it as the image for i3lock.
 
 `i3-gaps` - used for gaps between windows.
+
+## Extras
+
+I use `xrender` as the backend for picom as `glx` was giving me issues.
