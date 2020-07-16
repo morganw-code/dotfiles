@@ -6,9 +6,30 @@ The plugin manager I use is called vim-plug. Read more about it here: https://gi
 
 The configuration should work fine for regular vim, just add the lines to your `.vimrc` file.
 
+#### Changes
+
+Changes worth mentioning:
+
+- 2 space tab
+- 80 col border
+- relative line numbers
+- `:Prettier` shorthand command to exec `:CocCommand prettier.formatFile`
+
+Plugins worth mentioning:
+
+- coc.nvim (used for completion)
+- nerdtree (file system explorer, configured to auto init)
+- emmet-vim (emmet for HTML)
+- vim-rainbow (rainbow parentheses visual aid)
+- vim-airline (statusbar/tabline)
+- vim-javascript
+- vim-typescript
+- rust.vim (official rust plugin for vim)
+- syntastic (syntax checking engine used by rust plugin)
+
 ## i3
 
-### Changes
+#### Changes
 
 - rebind `j k l ;` to `h j k l`.
 
@@ -30,7 +51,7 @@ The configuration should work fine for regular vim, just add the lines to your `
 
 - configure i3-gaps
 
-### Config Dependencies
+#### Config Dependencies
 
 `picom` - picom is a compositor used for transparent windows.
 
@@ -42,6 +63,6 @@ The configuration should work fine for regular vim, just add the lines to your `
 
 `i3-gaps` - used for gaps between windows.
 
-### Extras
+#### Extras
 
 I use `xrender` as the backend for picom as `glx` was giving me issues.
