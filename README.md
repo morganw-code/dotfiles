@@ -1,8 +1,10 @@
 # My Dotfiles
 
-## Vim
+## Neovim
 
-The plugin manager I use is called vim-plug. Read more about it here: https://github.com/junegunn/vim-plug
+The plugin manager I use is called vim-plug. Read more about it here: https://github.com/junegunn/vim-plug. Once you have written your config file, run `:PlugInstall`, but you can switch it out for any plugin manager you prefer.
+
+The configuration should work fine for regular vim, just add the lines to your `.vimrc` file.
 
 ## i3
 
