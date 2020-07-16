@@ -1,4 +1,12 @@
-## Changes
+# My Dotfiles
+
+## Vim
+
+The plugin manager I use is called vim-plug. Read more about it here: https://github.com/junegunn/vim-plug
+
+## i3
+
+### Changes
 
 - rebind `j k l ;` to `h j k l`.
 
@@ -20,7 +28,7 @@
 
 - configure i3-gaps
 
-## Dependencies
+### Config Dependencies
 
 `picom` - picom is a compositor used for transparent windows.
 
@@ -32,6 +40,6 @@
 
 `i3-gaps` - used for gaps between windows.
 
-## Extras
+### Extras
 
 I use `xrender` as the backend for picom as `glx` was giving me issues.
